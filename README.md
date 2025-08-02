@@ -1,39 +1,40 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+EXCUSE GENERATOR WEBSITE
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [GLITCHY]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 2: [GEETHU S BAHULAYAN] - [College of engineering attingal]
+- Member 3: [AMRUTHALAKSHMI P] - [College of engineering attingal]
 
 ### Project Description
-[2-3 lines about what your project does]
+[This project is a fun and interactive Funny Excuse Generator. It takes any problem typed by the user and responds with a silly, unrealistic excuse based on certain keywords. If no keyword matches, it shows a random funny excuse. The design is bright, colorful, and made just using HTML, CSS, and JavaScript — no database or server needed!]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[People often need quick excuses — for fun, for jokes, or just to avoid answering seriously.
+This project solves the ridiculous “problem” of always needing a creative excuse... even when the situation doesn’t deserve one! ]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[By replacing real solutions with wildly unrealistic excuses! 
+
+Instead of fixing your problem, the website says stuff like:
+"My Wi-Fi left me on read."
+"My dog needed the keyboard for his online class."
+
+It checks your input for keywords, then throws logic out the window and gives you something that makes no sense... but makes you laugh.
+No stress. Just vibes.]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [languages used:HTML,CSS,javascript]
+- [Tools used:vs code]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
 ### Implementation
 For Software:
@@ -44,17 +45,17 @@ For Software:
 [commands]
 
 ### Project Documentation
-For Software:
+For Software:vs code
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/1w94D8wiUf1tezvKDITkPkIgIGZMoghSk/view?usp=drive_link
+clickme page
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/1ztqOsrasInbdDdinhGBSYm8yldsn83_J/view?usp=drive_link
+user input page
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+https://drive.google.com/file/d/1bU7ZC46IjMieZvvCYzKxTB6GkTgOpywR/view?usp=drive_link
+final input
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -81,8 +82,8 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+https://drive.google.com/file/d/1aE3L6eIdXyCvC6qthGd36_FUWzaj0iTi/view?usp=drive_link
+complete working
 
 # Additional Demos
 [Add any extra demo materials/links]

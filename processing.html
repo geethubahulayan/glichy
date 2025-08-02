@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Processing Excuse...</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      font-family: 'Arial', sans-serif;
+      background-color: orange;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .loading {
+      font-size: 26px;
+      color: #6a1b9a;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .excuse {
+      display: none;
+      background-color: rgba(255, 209, 220, 0.9);
+      color: #4a148c;
+      padding: 20px 30px;
+      border-radius: 12px;
+      font-size: 22px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      max-width: 80%;
+    }
+
+    .footer-line {
+      margin-top: 30px;
+      font-style: italic;
+      font-size: 16px;
+      color: #555;
+    }
+    .progress-container {
+  width: 200px;         /* smaller width */
+  height: 8px;          /* thinner height */
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px auto;    /* center it with space around */
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: #4caf50;
+  animation: loadProgress 5s linear forwards;  /* slower fill: 5s */
+}
+
+@keyframes loadProgress {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+
+
+  </style>
+</head>
+<body>
+  <div class="loading">
+    ⏳ Processing your excuse...
+    <div class="progress-container">
+  <div class="progress-bar" id="progressBar"></div>
+</div>
+
+  </div>
+
+
+  <div class="excuse" id="excuseBox">
+    <img src="https://www.shutterstock.com/shutterstock/videos/1058758459/thumb/1.jpg?ip=x480" >
+    Just Wait I'm Thinking
+    <div class="progress-container">
+  <div class="progress-bar" id="progressBar"></div>
+</div>
+
+  </div>
+  <script>
+    
+  setTimeout(() => {
+    document.querySelector('.loading').style.display = 'none';
+    document.getElementById('excuseBox').style.display = 'block';
+
+    // Redirect after 3 more seconds (total 6s from page load)
+    setTimeout(() => {
+      window.location.href = 'output2.html';
+    }, 5000);
+
+  },5000);
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>excuse generator</title>
+    </head>
+    <body style="margin:0; background-color:orange; height: 100vh; display: flex; justify-content: center; align-items: center;">
+
+  <!-- Welcome Box -->
+  <div id="welcomeBox" style="background-color:pink; padding: 50px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); text-align: center;">
+    <h1 style="color:#063143; font-size: 32px; margin: 0;">Find Your Excuses! 🎉</h1>
+  </div>
+
+  <!-- Click Me Box (Hidden Initially) -->
+  <div id="clickMeBox" style="display: none; flex-direction: column; align-items: center; background-color: #da244f; padding: 50px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); text-align: center;">
+    <p style="font-size: 20px; color: #edf2f4; margin-bottom: 20px;">Click me to make your excuse</p>
+    <button onclick="goToExcuse()" style="font-size: 50px; background: none; border: none; cursor: pointer;"><img src="https://img.favpng.com/2/21/7/smiley-emoticon-clip-art-png-favpng-y0YLVUFnwxrZwu424f27uBfcS_t.jpg"></button>
+  </div>
+
+  <script>
+    // Wait 5 seconds then switch to "Click Me" box
+    setTimeout(() => {
+      document.getElementById("welcomeBox").style.display = "none";
+      const clickBox = document.getElementById("clickMeBox");
+      clickBox.style.display = "flex";
+    }, 2000);
+
+    // Emoji click action
+    function goToExcuse() {
+      window.location.href="input2.html"
+      // You can load the next page or show new content here
+    }
+  </script>
+
+</body>
+
+</html>

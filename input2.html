@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Input Page</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: orange;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: sans-serif;
+    }
+    .container {
+      background-color: #ffd1dc;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    input {
+      padding: 10px;
+      font-size: 16px;
+      width: 250px;
+      border-radius: 8px;
+      border: none;
+      margin-top: 10px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: purple;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 style="color: purple;">What's your problem?</h2>
+    <input id="userInput" type="text" placeholder="Type here...">
+    <br>
+    <button onclick="processInput()">Submit</button>
+  </div>
+
+  <script>
+    const excuseMap = {
+      "homework": "My homework was stolen by a time traveler.",
+      "wifi": "My Wi-Fi went on vacation without telling me.",
+      "battery": "My battery fainted from exhaustion.",
+      "cat": "My cat deleted the file after judging it.",
+      "internet": "The internet decided to take a nap.",
+  "project": "The project worked too well and deleted itself.",
+  "tired": "My energy ran away and didn’t come back.",
+  "exam": "My brain was too hot, it burned the exam paper.",
+  
+  "late": "I was stuck in dream traffic.",
+  "sleep": "I slept in a different timezone by accident.",
+
+  "file": "The file grew wings and flew away.",
+  "attendance": "I joined the class in my dreams, not real life.",
+  "code": "My code got upset and stopped working.",
+  "zoom": "I joined the Zoom call in another dimension.",
+  "assignment": "my pen refuse to write it.",
+  "printer": "The printer is on strike. It needs a vacation.",
+  "note": "My notes left me. They were too bored.",
+  "deadline": "I asked the deadline for more time. It disappeared.",
+  "leave":"I got stuck in a parallel universe."
+    };
+
+    const fallbackExcuses = [
+
+      "The keyboard refused to cooperate.",
+      "Gravity flipped upside down.",
+      "I accidentally joined a cult of productivity.",
+      "My excuses expired. Need to renew them."
+    ];
+
+    function getExcuseFromInput(inputText) {
+      const lowerInput = inputText.toLowerCase();
+
+      for (let keyword in excuseMap) {
+        if (lowerInput.includes(keyword)) {
+          return excuseMap[keyword];
+        }
+      }
+
+      const randomIndex = Math.floor(Math.random() * fallbackExcuses.length);
+      return fallbackExcuses[randomIndex];
+    }
+
+    function processInput() {
+      const userInput = document.getElementById("userInput").value;
+      const chosenExcuse = getExcuseFromInput(userInput);
+
+      localStorage.setItem("finalExcuse", chosenExcuse);
+      window.location.href = "processing.html";
+    }
+  </script>
+</body>
+</html>
+
