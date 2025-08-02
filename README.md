@@ -58,8 +58,23 @@ https://drive.google.com/file/d/1bU7ZC46IjMieZvvCYzKxTB6GkTgOpywR/view?usp=drive
 final input
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+https://drive.google.com/file/d/1tQvvwVWRENQDenFWu-WGL_Iy6IIX_Mvq/view?usp=drive_link
+Welcome Page Loads 
+Bright background, pink box, and a warm welcome.
+Click the Emoji Button 
+Transitions to the input page.
+Input Page 
+User types their ridiculous “problem” in a pastel pink box.
+Click Submit
+Triggers the comparison logic.
+Processing Page 
+Shows a fake loading animation with a green progress bar and silly text like “Trying hard to lie…”
+Matching Excuse 
+JavaScript compares the input with stored keywords:
+If matched → related funny excuse is chosen.
+If no match → a random nonsense excuse is picked.
+Final Output Page 
+The selected excuse is displayed in a fun pink box on an orange background.
 
 For Hardware:
 
@@ -71,15 +86,13 @@ For Hardware:
 *Add caption explaining the schematic*
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
+https://drive.google.com/file/d/1wK-DKQnP0JEbL61YWyZqOLLcf29_0kQ5/view?usp=drive_link
 ![Build](Add photos of build process here)
-*Explain the build steps*
+https://drive.google.com/file/d/1wK-DKQnP0JEbL61YWyZqOLLcf29_0kQ5/view?usp=drive_link
 
 ![Final](Add photo of final product here)
-*Explain the final build*
 
+(https://drive.google.com/file/d/1w94D8wiUf1tezvKDITkPkIgIGZMoghSk/view?usp=drive_link)
 ### Project Demo
 # Video
 https://drive.google.com/file/d/1aE3L6eIdXyCvC6qthGd36_FUWzaj0iTi/view?usp=drive_link
