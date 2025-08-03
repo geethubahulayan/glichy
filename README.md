@@ -9,8 +9,8 @@ EXCUSE GENERATOR WEBSITE
 
 
 ### Team Members
-- Member 2: [GEETHU S BAHULAYAN] - [College of engineering attingal]
-- Member 3: [AMRUTHALAKSHMI P] - [College of engineering attingal]
+- Member 1: [GEETHU S BAHULAYAN] - [College of engineering attingal]
+- Member 2: [AMRUTHALAKSHMI P] - [College of engineering attingal]
 
 ### Project Description
 [This project is a fun and interactive Funny Excuse Generator. It takes any problem typed by the user and responds with a silly, unrealistic excuse based on certain keywords. If no keyword matches, it shows a random funny excuse. The design is bright, colorful, and made just using HTML, CSS, and JavaScript — no database or server needed!]
